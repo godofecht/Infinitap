@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="IoWf4l" name="Infinitap" projectType="audioplug" pluginFormats="buildStandalone,buildVST3"
+              pluginManufacturer="Quilio" pluginVST3Category="Delay,Fx" companyName="Quilio"
+              pluginDesc="Multi-tap Delay" displaySplashScreen="1" jucerFormatVersion="1"
+              companyWebsite="www.quilio.dev" companyEmail="admin@quilio.dev"
+              cppLanguageStandard="latest">
+  <MAINGROUP id="FLgVWM" name="Infinitap">
+    <GROUP id="{A5E6DB9F-AD7D-1872-945E-D4DC65836B06}" name="Source">
+      <FILE id="mBx2Aw" name="newLookAndFeel.h" compile="0" resource="0"
+            file="Source/newLookAndFeel.h"/>
+      <FILE id="YFrg3B" name="InfinitapAudioProcessor.cpp" compile="1" resource="0"
+            file="Source/InfinitapAudioProcessor.cpp"/>
+      <FILE id="rkx51o" name="InfinitapAudioProcessor.h" compile="0" resource="0"
+            file="Source/InfinitapAudioProcessor.h"/>
+      <FILE id="yT3Q20" name="InfinitapAudioProcessorEditor.cpp" compile="1"
+            resource="0" file="Source/InfinitapAudioProcessorEditor.cpp"/>
+      <FILE id="GrZfnD" name="InfinitapAudioProcessorEditor.h" compile="0"
+            resource="0" file="Source/InfinitapAudioProcessorEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="C:\Users\abhis\Downloads\juce-6.1.6-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_devices" path="C:\Users\abhis\Downloads\juce-6.1.6-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_formats" path="C:\Users\abhis\Downloads\juce-6.1.6-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="C:\Users\abhis\Downloads\juce-6.1.6-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_processors" path="C:\Users\abhis\Downloads\juce-6.1.6-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_utils" path="C:\Users\abhis\Downloads\juce-6.1.6-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_core" path="C:\Users\abhis\Downloads\juce-6.1.6-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_cryptography" path="C:\Users\abhis\Downloads\juce-6.1.6-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:\Users\abhis\Downloads\juce-6.1.6-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_dsp" path="C:\Users\abhis\Downloads\juce-6.1.6-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_events" path="C:\Users\abhis\Downloads\juce-6.1.6-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_graphics" path="C:\Users\abhis\Downloads\juce-6.1.6-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_gui_basics" path="C:\Users\abhis\Downloads\juce-6.1.6-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_gui_extra" path="C:\Users\abhis\Downloads\juce-6.1.6-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_opengl" path="C:\Users\abhis\Downloads\juce-6.1.6-windows\JUCE\modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS buildEnabled="0"/>
+  </LIVE_SETTINGS>
+  <JUCEOPTIONS JUCE_VST3_CAN_REPLACE_VST2="0" JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+</JUCERPROJECT>
